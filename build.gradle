@@ -20,6 +20,10 @@ dependencies {
 
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
 test{
     maxParallelForks = 4
 }
